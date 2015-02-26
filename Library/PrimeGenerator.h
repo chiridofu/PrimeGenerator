@@ -13,5 +13,13 @@ public:
 	~PrimeGenerator();
 
 	std::vector<int> GetPrimeLessThan(int);
+
+	std::vector<int> GetPrimeList() {
+		return primeList;	
+	}
+
+	void SetPrimeList(std::vector<int> pList){
+		primeList = pList;
+	}
 };
 
